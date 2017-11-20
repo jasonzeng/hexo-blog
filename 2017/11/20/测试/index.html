@@ -112,7 +112,7 @@ $ cd &amp;lt;folder&amp;gt;
 $ npm install 
 修改部署生成新的文档hexo new {layout} draft/post/p">
 <meta property="og:image" content="http://www.bitupdown.com/2017/11/20/测试/15111629153897.jpg">
-<meta property="og:updated_time" content="2017-11-20T08:15:20.767Z">
+<meta property="og:updated_time" content="2017-11-20T08:41:39.481Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用netlify部署博客">
 <meta name="twitter:description" content="安装Hexo安装基本软件
@@ -360,9 +360,9 @@ $ npm install
 $ cd &lt;folder&gt;
 $ npm install</code> </p>
 <h2 id="修改部署"><a href="#修改部署" class="headerlink" title="修改部署"></a>修改部署</h2><h3 id="生成新的文档"><a href="#生成新的文档" class="headerlink" title="生成新的文档"></a>生成新的文档</h3><p><code>hexo new {layout} draft/post/page {title}</code><br>修改文件内容后执行生成部署</p>
-<h3 id="文本内增加图片"><a href="#文本内增加图片" class="headerlink" title="文本内增加图片"></a>文本内增加图片</h3><p>目前我使用的是Mweb方式增加截图，需要配置hexo的_config.yml文件，修改<br><code>post_asset_folder选项设置为true</code><br>在Hexo文档目录中安装新插件<br><code>npm install hexo-asset-image --save</code>  </p>
+<h3 id="文本内增加图片"><a href="#文本内增加图片" class="headerlink" title="文本内增加图片"></a>文本内增加图片</h3><p>需要配置hexo的_config.yml文件，修改<br><code>post_asset_folder选项设置为true</code><br>在Hexo文档目录中安装新插件<br><code>npm install hexo-asset-image --save</code><br>这样通过hexo new生成新文档的时候会生成同名的一个目录，把截图放进去即可完成配置。<br>目前我使用的是Mweb方式增加截图，截图复制在别的场景下很方便，但是在Hexo中有些需要修改的地方暂时没法配置，比如复制截图保存的路径是./media/xxx.jpg 如果能够自动配置成文件名路径就特别方便了，不知道作者会不会增加这个选项。  </p>
 <h3 id="生成部署"><a href="#生成部署" class="headerlink" title="生成部署"></a>生成部署</h3><p><code>hexo clean; hexo g; hexo d;</code>  </p>
-<p><img src="/2017/11/20/测试/15111629153897.jpg" alt="">)</p>
+<p><img src="/2017/11/20/测试/15111629153897.jpg" alt=""></p>
 
       
     </div>
