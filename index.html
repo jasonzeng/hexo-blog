@@ -451,10 +451,12 @@
 </ol>
 <h3 id="安装Hexo-1"><a href="#安装Hexo-1" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><p><code>npm install -g hexo-cli</code>   </p>
 <p>执行后系统内即可完成hexo的安装，还需执行hexo命令初始化：  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;folder&gt;</div><div class="line">$ cd &lt;folder&gt;</div><div class="line">$ npm install</div><div class="line">```  </div><div class="line"></div><div class="line">## 修改部署  </div><div class="line">### 生成新的文档</div></pre></td></tr></table></figure>
-<p>hexo new {layout} draft/post/page {title}<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">修改文件内容后执行生成部署</div><div class="line"></div><div class="line">### 文本内增加图片</div><div class="line">目前我使用的是Mweb方式增加截图，需要配置hexo的_config.yml文件，修改   </div><div class="line">`post_asset_folder选项设置为true`  </div><div class="line">在Hexo文档目录中安装新插件</div><div class="line">`npm install hexo-asset-image --save`  </div><div class="line"></div><div class="line">### 生成部署</div></pre></td></tr></table></figure></p>
-<p>hexo clean; hexo g; hexo d;<br>```  </p>
-<p><img src="/2017/11/20/测试/15111629153897.jpg" alt="">)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;folder&gt;</div><div class="line">$ cd &lt;folder&gt;</div><div class="line">$ npm install</div><div class="line"></div><div class="line">## 修改部署  </div><div class="line">### 生成新的文档</div></pre></td></tr></table></figure>
+<p>hexo new {layout} draft/post/page {title} </p>
+<p>修改文件内容后执行生成部署</p>
+<h3 id="文本内增加图片"><a href="#文本内增加图片" class="headerlink" title="文本内增加图片"></a>文本内增加图片</h3><p>目前我使用的是Mweb方式增加截图，需要配置hexo的_config.yml文件，修改<br><code>post_asset_folder选项设置为true</code><br>在Hexo文档目录中安装新插件<br><code>npm install hexo-asset-image --save</code>  </p>
+<h3 id="生成部署"><a href="#生成部署" class="headerlink" title="生成部署"></a>生成部署</h3><pre><code>hexo clean; hexo g; hexo d;
+</code></pre><p><img src="/2017/11/20/测试/15111629153897.jpg" alt="">)</p>
 
           
         
